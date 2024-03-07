@@ -7,7 +7,7 @@
 #
 # Include in your builds via
 # \curl -sSL https://raw.githubusercontent.com/codeship/scripts/master/packages/chromedriver.sh | bash -s
-CHROMEDRIVER_VERSION=${CHROMEDRIVER_VERSION:="116.0.5802.0"}
+CHROMEDRIVER_VERSION=${CHROMEDRIVER_VERSION:="122.0.6261.94"}
 
 set -e
 CACHED_DOWNLOAD="${HOME}/cache/chromedriver_linux64_${CHROMEDRIVER_VERSION}.zip"
